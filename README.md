@@ -7,3 +7,6 @@ In a nutshell, the `NSLayoutManager` class is swizzled to force drawing with an 
 https://github.com/gnachman/iTerm2/blob/76fe643f505eb3a0eed5a8390c39325e3c22d179/sources/iTermTextDrawingHelper.m#L681
 
 This is probably a horrible idea, but it's way easier on the eyes!
+
+<img src="ThinStrokes@2x.png" width=600 height=430 />
+

@@ -1,0 +1,3 @@
+[submodule "MAObjCRuntime"]
+	path = MAObjCRuntime
+	url = https://github.com/liscio/MAObjCRuntime

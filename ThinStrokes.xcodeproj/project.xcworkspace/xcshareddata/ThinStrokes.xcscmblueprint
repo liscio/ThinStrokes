@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B73668616253144D04D00BA4811AE1949ECBCC50",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "18030B5112E4743F2CDD69CFF074D529EA063310" : 0,
+    "B73668616253144D04D00BA4811AE1949ECBCC50" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1DE9B189-CEF8-43A0-83EF-44797410EF5D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "18030B5112E4743F2CDD69CFF074D529EA063310" : "ThinStrokes\/MAObjCRuntime\/",
+    "B73668616253144D04D00BA4811AE1949ECBCC50" : "ThinStrokes\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ThinStrokes",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ThinStrokes.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mikeash\/MAObjCRuntime",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18030B5112E4743F2CDD69CFF074D529EA063310"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:liscio\/ThinStrokes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B73668616253144D04D00BA4811AE1949ECBCC50"
+    }
+  ]
+}

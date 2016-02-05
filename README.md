@@ -16,4 +16,13 @@ This is probably a horrible idea, but it's way easier on the eyes! Bask in all i
 
 Again, this is a horrible idea, so if stuff starts breaking randomly, don't say I didn't warn you...
 
-Launch the Xcode project, build it, and relaunch Xcode. Eventually I'll figure out how to get this into "the list" for [Alcatraz](http://alcatraz.io).
+### The easy way
+
+Install [Alcatraz](http://alcatraz.io), search for 'ThinStrokes', and hit the install button!.
+
+### The (slightly) less easy way
+
+Clone this repo, update the submodule, and build the project using `xcodebuild -configuration Release` at the Terminal, or use the 'Build for Profiling' action in Xcode to get a release build. 
+
+The output is built directly in Xcode's plugins folder.
+

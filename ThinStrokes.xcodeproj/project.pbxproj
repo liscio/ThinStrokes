@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839E412A1C64327200324692 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839E41291C64327200324692 /* AppKit.framework */; };
+		839E412C1C64327200324692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839E412B1C64327200324692 /* Foundation.framework */; };
+		839E41301C64327200324692 /* ThinStrokes.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 839E412F1C64327200324692 /* ThinStrokes.xcscheme */; };
+		839E41331C64327200324692 /* ThinStrokes.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E41321C64327200324692 /* ThinStrokes.m */; };
+		839E41361C64327200324692 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E41351C64327200324692 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		839E41261C64327200324692 /* ThinStrokes.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinStrokes.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		839E41291C64327200324692 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		839E412B1C64327200324692 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		839E412F1C64327200324692 /* ThinStrokes.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = ThinStrokes.xcscheme; path = ThinStrokes.xcodeproj/xcshareddata/xcschemes/ThinStrokes.xcscheme; sourceTree = SOURCE_ROOT; };
+		839E41311C64327200324692 /* ThinStrokes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThinStrokes.h; sourceTree = "<group>"; };
+		839E41321C64327200324692 /* ThinStrokes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinStrokes.m; sourceTree = "<group>"; };
+		839E41341C64327200324692 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		839E41351C64327200324692 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		839E41371C64327200324692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839E41241C64327200324692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839E412A1C64327200324692 /* AppKit.framework in Frameworks */,
+				839E412C1C64327200324692 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839E411D1C64327200324692 = {
+			isa = PBXGroup;
+			children = (
+				839E412D1C64327200324692 /* ThinStrokes */,
+				839E41281C64327200324692 /* Frameworks */,
+				839E41271C64327200324692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839E41271C64327200324692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839E41261C64327200324692 /* ThinStrokes.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839E41281C64327200324692 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				839E41291C64327200324692 /* AppKit.framework */,
+				839E412B1C64327200324692 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839E412D1C64327200324692 /* ThinStrokes */ = {
+			isa = PBXGroup;
+			children = (
+				839E41311C64327200324692 /* ThinStrokes.h */,
+				839E41321C64327200324692 /* ThinStrokes.m */,
+				839E41341C64327200324692 /* NSObject_Extension.h */,
+				839E41351C64327200324692 /* NSObject_Extension.m */,
+				839E41371C64327200324692 /* Info.plist */,
+				839E412E1C64327200324692 /* Supporting Files */,
+			);
+			path = ThinStrokes;
+			sourceTree = "<group>";
+		};
+		839E412E1C64327200324692 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839E412F1C64327200324692 /* ThinStrokes.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839E41251C64327200324692 /* ThinStrokes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839E413A1C64327200324692 /* Build configuration list for PBXNativeTarget "ThinStrokes" */;
+			buildPhases = (
+				839E41221C64327200324692 /* Sources */,
+				839E41231C64327200324692 /* Resources */,
+				839E41241C64327200324692 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinStrokes;
+			productName = ThinStrokes;
+			productReference = 839E41261C64327200324692 /* ThinStrokes.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839E411E1C64327200324692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "SuperMegaUltraGroovy, Inc.";
+				TargetAttributes = {
+					839E41251C64327200324692 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 839E41211C64327200324692 /* Build configuration list for PBXProject "ThinStrokes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 839E411D1C64327200324692;
+			productRefGroup = 839E41271C64327200324692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839E41251C64327200324692 /* ThinStrokes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839E41231C64327200324692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839E41301C64327200324692 /* ThinStrokes.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839E41221C64327200324692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839E41331C64327200324692 /* ThinStrokes.m in Sources */,
+				839E41361C64327200324692 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		839E41381C64327200324692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		839E41391C64327200324692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		839E413B1C64327200324692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = ThinStrokes/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = org.liscio.ThinStrokes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		839E413C1C64327200324692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = ThinStrokes/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = org.liscio.ThinStrokes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839E41211C64327200324692 /* Build configuration list for PBXProject "ThinStrokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839E41381C64327200324692 /* Debug */,
+				839E41391C64327200324692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839E413A1C64327200324692 /* Build configuration list for PBXNativeTarget "ThinStrokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839E413B1C64327200324692 /* Debug */,
+				839E413C1C64327200324692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839E411E1C64327200324692 /* Project object */;
+}

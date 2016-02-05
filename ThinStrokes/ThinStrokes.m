@@ -54,6 +54,9 @@ extern int CGContextGetFontSmoothingStyle(CGContextRef);
     
         CGContextRef ctx = [inContext CGContext];
         
+        // The below code—save for the swizzling—is copied nearly verbatim from
+        // iTerm. Here's the source: https://github.com/gnachman/iTerm2/blob/76fe643f505eb3a0eed5a8390c39325e3c22d179/sources/iTermTextDrawingHelper.m#L681
+        
         int savedFontSmoothingStyle = 0;
         BOOL useThinStrokes = YES;
         if (useThinStrokes) {

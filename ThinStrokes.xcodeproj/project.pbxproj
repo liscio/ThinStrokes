@@ -17,7 +17,6 @@
 		839E412C1C64327200324692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839E412B1C64327200324692 /* Foundation.framework */; };
 		839E41301C64327200324692 /* ThinStrokes.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 839E412F1C64327200324692 /* ThinStrokes.xcscheme */; };
 		839E41331C64327200324692 /* ThinStrokes.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E41321C64327200324692 /* ThinStrokes.m */; };
-		839E41361C64327200324692 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E41351C64327200324692 /* NSObject_Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +38,6 @@
 		839E412F1C64327200324692 /* ThinStrokes.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = ThinStrokes.xcscheme; path = ThinStrokes.xcodeproj/xcshareddata/xcschemes/ThinStrokes.xcscheme; sourceTree = SOURCE_ROOT; };
 		839E41311C64327200324692 /* ThinStrokes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThinStrokes.h; sourceTree = "<group>"; };
 		839E41321C64327200324692 /* ThinStrokes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinStrokes.m; sourceTree = "<group>"; };
-		839E41341C64327200324692 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
-		839E41351C64327200324692 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
 		839E41371C64327200324692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,8 +105,6 @@
 			children = (
 				839E41311C64327200324692 /* ThinStrokes.h */,
 				839E41321C64327200324692 /* ThinStrokes.m */,
-				839E41341C64327200324692 /* NSObject_Extension.h */,
-				839E41351C64327200324692 /* NSObject_Extension.m */,
 				839E41371C64327200324692 /* Info.plist */,
 				839E412E1C64327200324692 /* Supporting Files */,
 			);
@@ -194,7 +189,6 @@
 				8365223D1C64608B00B9BA1C /* RTProperty.m in Sources */,
 				8365223A1C64608B00B9BA1C /* MARTNSObject.m in Sources */,
 				839E41331C64327200324692 /* ThinStrokes.m in Sources */,
-				839E41361C64327200324692 /* NSObject_Extension.m in Sources */,
 				8365223C1C64608B00B9BA1C /* RTMethod.m in Sources */,
 				8365223F1C64608B00B9BA1C /* RTUnregisteredClass.m in Sources */,
 				8365223B1C64608B00B9BA1C /* RTIvar.m in Sources */,

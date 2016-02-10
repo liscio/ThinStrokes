@@ -45,7 +45,10 @@ extern int CGContextGetFontSmoothingStyle(CGContextRef);
         
         CGContextSetFontSmoothingStyle(ctx, savedFontSmoothingStyle);
     });
-    method_setImplementation(showCGGlyphsMethod, newIMP);
+    BOOL didAdd = class_addMethod(DVTLayoutManager, showCGGlyphsSEL, newIMP, method_getTypeEncoding(showCGGlyphsMethod));
+    if(!didAdd) {
+        method_setImplementation(showCGGlyphsMethod, newIMP);
+    }
 }
 
 @end

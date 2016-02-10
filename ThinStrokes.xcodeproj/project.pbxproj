@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8365223A1C64608B00B9BA1C /* MARTNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 836522341C64608B00B9BA1C /* MARTNSObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8365223B1C64608B00B9BA1C /* RTIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 836522351C64608B00B9BA1C /* RTIvar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8365223C1C64608B00B9BA1C /* RTMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 836522361C64608B00B9BA1C /* RTMethod.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8365223D1C64608B00B9BA1C /* RTProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 836522371C64608B00B9BA1C /* RTProperty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8365223E1C64608B00B9BA1C /* RTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 836522381C64608B00B9BA1C /* RTProtocol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8365223F1C64608B00B9BA1C /* RTUnregisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 836522391C64608B00B9BA1C /* RTUnregisteredClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		839E412A1C64327200324692 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839E41291C64327200324692 /* AppKit.framework */; };
 		839E412C1C64327200324692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839E412B1C64327200324692 /* Foundation.framework */; };
 		839E41301C64327200324692 /* ThinStrokes.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 839E412F1C64327200324692 /* ThinStrokes.xcscheme */; };
@@ -20,18 +14,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		836522341C64608B00B9BA1C /* MARTNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MARTNSObject.m; path = MAObjCRuntime/MARTNSObject.m; sourceTree = "<group>"; };
-		836522351C64608B00B9BA1C /* RTIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTIvar.m; path = MAObjCRuntime/RTIvar.m; sourceTree = "<group>"; };
-		836522361C64608B00B9BA1C /* RTMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTMethod.m; path = MAObjCRuntime/RTMethod.m; sourceTree = "<group>"; };
-		836522371C64608B00B9BA1C /* RTProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTProperty.m; path = MAObjCRuntime/RTProperty.m; sourceTree = "<group>"; };
-		836522381C64608B00B9BA1C /* RTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTProtocol.m; path = MAObjCRuntime/RTProtocol.m; sourceTree = "<group>"; };
-		836522391C64608B00B9BA1C /* RTUnregisteredClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTUnregisteredClass.m; path = MAObjCRuntime/RTUnregisteredClass.m; sourceTree = "<group>"; };
-		836522401C64633F00B9BA1C /* MARTNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MARTNSObject.h; path = MAObjCRuntime/MARTNSObject.h; sourceTree = "<group>"; };
-		836522411C64633F00B9BA1C /* RTIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTIvar.h; path = MAObjCRuntime/RTIvar.h; sourceTree = "<group>"; };
-		836522421C64633F00B9BA1C /* RTMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTMethod.h; path = MAObjCRuntime/RTMethod.h; sourceTree = "<group>"; };
-		836522431C64633F00B9BA1C /* RTProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTProperty.h; path = MAObjCRuntime/RTProperty.h; sourceTree = "<group>"; };
-		836522441C64633F00B9BA1C /* RTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTProtocol.h; path = MAObjCRuntime/RTProtocol.h; sourceTree = "<group>"; };
-		836522451C64633F00B9BA1C /* RTUnregisteredClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTUnregisteredClass.h; path = MAObjCRuntime/RTUnregisteredClass.h; sourceTree = "<group>"; };
 		839E41261C64327200324692 /* ThinStrokes.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinStrokes.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		839E41291C64327200324692 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		839E412B1C64327200324692 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -54,29 +36,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		836522331C64605200B9BA1C /* MAObjCRuntime */ = {
-			isa = PBXGroup;
-			children = (
-				836522401C64633F00B9BA1C /* MARTNSObject.h */,
-				836522411C64633F00B9BA1C /* RTIvar.h */,
-				836522421C64633F00B9BA1C /* RTMethod.h */,
-				836522431C64633F00B9BA1C /* RTProperty.h */,
-				836522441C64633F00B9BA1C /* RTProtocol.h */,
-				836522451C64633F00B9BA1C /* RTUnregisteredClass.h */,
-				836522341C64608B00B9BA1C /* MARTNSObject.m */,
-				836522351C64608B00B9BA1C /* RTIvar.m */,
-				836522361C64608B00B9BA1C /* RTMethod.m */,
-				836522371C64608B00B9BA1C /* RTProperty.m */,
-				836522381C64608B00B9BA1C /* RTProtocol.m */,
-				836522391C64608B00B9BA1C /* RTUnregisteredClass.m */,
-			);
-			name = MAObjCRuntime;
-			sourceTree = "<group>";
-		};
 		839E411D1C64327200324692 = {
 			isa = PBXGroup;
 			children = (
-				836522331C64605200B9BA1C /* MAObjCRuntime */,
 				839E412D1C64327200324692 /* ThinStrokes */,
 				839E41281C64327200324692 /* Frameworks */,
 				839E41271C64327200324692 /* Products */,
@@ -186,13 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8365223D1C64608B00B9BA1C /* RTProperty.m in Sources */,
-				8365223A1C64608B00B9BA1C /* MARTNSObject.m in Sources */,
 				839E41331C64327200324692 /* ThinStrokes.m in Sources */,
-				8365223C1C64608B00B9BA1C /* RTMethod.m in Sources */,
-				8365223F1C64608B00B9BA1C /* RTUnregisteredClass.m in Sources */,
-				8365223B1C64608B00B9BA1C /* RTIvar.m in Sources */,
-				8365223E1C64608B00B9BA1C /* RTProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

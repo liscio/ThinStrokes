@@ -9,9 +9,6 @@
 #import <QuartzCore/QuartzCore.h>
 #import <objc/runtime.h>
 #import "ThinStrokes.h"
-#import "RTProtocol.h"
-#import "MARTNSObject.h"
-#import "RTMethod.h"
 
 extern void CGContextSetFontSmoothingStyle(CGContextRef, int);
 extern int CGContextGetFontSmoothingStyle(CGContextRef);

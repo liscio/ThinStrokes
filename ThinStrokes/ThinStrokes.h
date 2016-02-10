@@ -8,14 +8,5 @@
 
 #import <AppKit/AppKit.h>
 
-@class ThinStrokes;
-
-static ThinStrokes *sharedPlugin;
-
 @interface ThinStrokes : NSObject
-
-+ (instancetype)sharedPlugin;
-- (id)initWithBundle:(NSBundle *)plugin;
-
-@property (nonatomic, strong, readonly) NSBundle* bundle;
 @end

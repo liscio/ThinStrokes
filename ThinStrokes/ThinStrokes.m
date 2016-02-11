@@ -18,7 +18,6 @@ extern int CGContextGetFontSmoothingStyle(CGContextRef);
 + (void)pluginDidLoad:(NSBundle *)plugin {
     Class DVTLayoutManager = NSClassFromString(@"DVTLayoutManager");
     if(!DVTLayoutManager) {
-        NSLog(@"Couldn't find DVTLayoutManager, so ThinStrokes can't load. Reverting to normal font rendering.");
         return;
     }
     
